@@ -9,6 +9,94 @@ html {
   line-height: 1.4;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 1366px;
+}
+
+.slider{
+  height: 800px;
+  background-image: url(../img/slider-img.jpg);
+}
+
+.menu-link{
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu-link-active{
+  color: #212121;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  border-bottom: 3px solid #212121;
+}
+
+.slider-tag{
+  color: #43a047;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.slider-name{
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.slider-details{
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.slider-btn{
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 23px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  width: 212px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  letter-spacing: 3.6px;
+}
+
+.circle{
+  height: 30px;
+  width: 30px;
+  background-color: #c7c7c7;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.circle-active{
+  background-color: #212121;
+  height: 40px;
+  width: 40px;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
