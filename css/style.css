@@ -1,0 +1,175 @@
+.site {
+  width: 1366px;
+  margin: 0 auto;
+}
+.header {
+  min-height: 360px;
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 63px 98px 0;
+}
+.stroke {
+  background-color: #f5f5f5;
+  padding-right: 69px;
+}
+.buttons {
+  text-align: center;
+}
+.header h2 {
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  position: absolute;
+  margin-bottom: 44px;
+  margin-top: 168px;
+}
+.shift {
+  background-color: #ffffff;
+  padding-left: 98px;
+  margin: unset;
+  display: inline-block;
+}
+nav ul {
+  text-align: left;
+}
+nav.shift ul li a:after {
+  background: #1b1e21;
+}
+nav.shift ul li a:hover {
+  color: white!important;
+}
+.col-md-4 {
+  width: 370px;
+  height: 370px;
+  padding: 0;
+  margin: 0;
+}
+.ranges {
+  padding-left: 98px;
+  padding-right: 68px;
+  padding-bottom: 30px;
+}
+.ranges:last-child {
+  padding-bottom: 50px;
+}
+.bi {
+  color: #212121;
+  font-size: 42px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+}
+.btn-outline-primary {
+  outline: none!important;
+  border: none!important;
+  border-radius: 35px;
+  background-color: #d8f4fe;
+  width: 70px;
+  height: 70px;
+}
+.btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  background-color: #d8f4fe !important;
+}
+.button:active,
+.button:focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.5rem rgba(0, 123, 255, 0.25);
+}
+.promo-1 {
+  background-image: url("../img/promo-img1.jpg");
+  height: 683px;
+}
+.promo-2 {
+  background-image: url("../img/promo-img2.jpg");
+  height: 683px;
+}
+a {
+  text-decoration: none!important;
+  color: #212121 !important;
+}
+.col-md-4 a:hover {
+  opacity: 0.5;
+}
+.footer {
+  padding: 0 98px;
+}
+.email {
+  width: 370px;
+}
+.main {
+  min-height: 2545px;
+}
+.footer-copyright p {
+  width: 380px !important;
+}
+.footer-useful-list a:hover {
+  color: #8c8c8c !important;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    zoom: 50%;
+  }
+  .promo-details {
+    max-width: 374px;
+  }
+  .range {
+    max-width: 185px;
+    max-height: 185px;
+  }
+  img {
+    max-width: 185px;
+    max-height: 185px;
+  }
+  .buttons {
+    text-align: left;
+    margin-left: 300px!important;
+  }
+  .shift {
+    zoom: 70%;
+  }
+  .header h2 {
+    font-size: 52px;
+    margin-top: 150px;
+  }
+  .stroke {
+    float: none;
+    padding: 20px 10px 0 0;
+  }
+  nav ul li a {
+    margin: 0;
+  }
+  .promo-1,
+  .promo-2 {
+    max-width: 50%;
+    margin: 1px;
+  }
+  .email {
+    max-width: 400px;
+  }
+  .footer-copyright p {
+    width: 380px !important;
+  }
+  .footer-terms-text {
+    float: none;
+    padding-left: 170px;
+    letter-spacing: 0.6px;
+  }
+  .footer-terms-text:hover {
+    color: #8c8c8c !important;
+    letter-spacing: 0.6px !important;
+  }
+  .footer-subscribe {
+    max-width: 400px;
+  }
+  .footer {
+    max-width: 1366px;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
