@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .header {
-  height: 360px;
+  min-height: 360px;
   background-color: #f5f5f5;
   position: relative;
   padding: 63px 98px 0;
@@ -101,5 +101,75 @@ a {
 }
 .email {
   width: 370px;
+}
+.main {
+  min-height: 2545px;
+}
+.footer-copyright p {
+  width: 380px !important;
+}
+.footer-useful-list a:hover {
+  color: #8c8c8c !important;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    zoom: 50%;
+  }
+  .promo-details {
+    max-width: 374px;
+  }
+  .range {
+    max-width: 185px;
+    max-height: 185px;
+  }
+  img {
+    max-width: 185px;
+    max-height: 185px;
+  }
+  .buttons {
+    text-align: left;
+    margin-left: 300px!important;
+  }
+  .shift {
+    zoom: 70%;
+  }
+  .header h2 {
+    font-size: 52px;
+    margin-top: 150px;
+  }
+  .stroke {
+    float: none;
+    padding: 20px 10px 0 0;
+  }
+  nav ul li a {
+    margin: 0;
+  }
+  .promo-1,
+  .promo-2 {
+    max-width: 50%;
+    margin: 1px;
+  }
+  .email {
+    max-width: 400px;
+  }
+  .footer-copyright p {
+    width: 380px !important;
+  }
+  .footer-terms-text {
+    float: none;
+    padding-left: 170px;
+    letter-spacing: 0.6px;
+  }
+  .footer-terms-text:hover {
+    color: #8c8c8c !important;
+    letter-spacing: 0.6px !important;
+  }
+  .footer-subscribe {
+    max-width: 400px;
+  }
+  .footer {
+    max-width: 1366px;
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
