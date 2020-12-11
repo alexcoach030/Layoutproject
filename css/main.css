@@ -321,6 +321,7 @@ body{
 
 .promo-content-text{
   margin: 228px 259px 256px 50px;
+  max-height: 100%;
 }
 
 .promo-tag{
@@ -1116,6 +1117,7 @@ nav.shift ul li a {
 nav.shift ul li a:hover {
   color: #212121;
 }
+
 nav.shift ul li a:after {
   display: block;
   position: absolute;
